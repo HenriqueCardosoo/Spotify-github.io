@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #121212;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 196px;
+  background-color: #000;
+  padding: 24px;
+}
+
+.sidebar .logo img {
+  width: 130px;
+}
+
+.sidebar .navigation ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.sidebar .navigation ul li {
+  padding: 10px 0;
+}
+
+.sidebar .navigation ul li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+  color: #fff;
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa {
+  color: #b3b3b3;
+}
+
+.sidebar .navigation ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
+  color: #fff;
+}
+
+.sidebar .politicas {
+  position: absolute;
+  bottom: 100px;
+}
+
+.sidebar .politicas ul {
+  list-style: none;
+}
+
+.sidebar .politicas ul li {
+  padding-bottom: 5px;
+}
+
+.sidebar .politicas ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.sidebar .politicas a:hover,
+.sidebar .politicas a:active,
+.sidebar .politicas a:focus {
+  text-decoration: underline;
+}
+
+.main-container {
+  width: 245px;
+  margin-bottom: 100px;
+  background-color: #000;
+}
