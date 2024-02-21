@@ -1,0 +1,75 @@
+.playlist {
+  margin-left: 290px;
+  margin-top: 30px;
+}
+
+.playlist h2 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.item {
+  min-width: 140px;
+  width: 160px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #181818;
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #252525;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.play {
+  position: relative;
+}
+
+.play .fa {
+  position: absolute;
+  left: 100px;
+  top: -60px;
+  padding: 18px;
+  border-radius: 100%;
+  background-color: #1db954;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+.item:hover .play .fa {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.item h4 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item p {
+  color: #989898;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.artistas img {
+  border-radius: 100%;
+}
