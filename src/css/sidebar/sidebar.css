@@ -1,0 +1,67 @@
+.sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 196px;
+  background-color: #000000;
+  padding: 24px;
+}
+.logo img {
+  width: 130px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.sidebar .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sidebar a:hover,
+.sidebar a:active,
+.sidebar a:focus {
+  color: #ffffff;
+}
+
+.sidebar a:hover .fa,
+.sidebar a:active .fa,
+.sidebar a:focus .fa {
+  color: #b3b3b3;
+}
+
+.sidebar a:hover .fa:hover,
+.sidebar a:active .fa:active,
+.sidebar a:focus .fa :focus {
+  color: #ffffff;
+}
+
+.policies {
+  position: absolute;
+  bottom: 100px;
+}
+
+.policies a {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+
+.policies a:hover,
+.policies a:active,
+.policies a:focus {
+  text-decoration: underline;
+}

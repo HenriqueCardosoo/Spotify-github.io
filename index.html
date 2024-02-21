@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title> Spotify Clone</title>
   <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
-  <div class="sidebar">
+
+  <div class="sidebar-container">
     <div class="logo">
-      <a href="#">
-        <img src="src/img/Spotify_Logo_CMYK_Green.png" alt="logo">
-      </a>
+      <a href="#"><img src="src/img/Spotify_Logo_CMYK_Green.png" alt="Logo Sporify"></a>
     </div>
 
-    <div class="navigation">
+    <div class="sidebar">
       <ul>
         <li>
           <a href="#">
             <span class="fa fa-house"></span>
-            <span>início</span>
+            <span>Início</span>
           </a>
         </li>
 
@@ -35,30 +34,31 @@
         <li>
           <a href="#">
             <span class="fa fa-book"></span>
-            <span>Sua Biblioteca</span>
-          </a>
-        </li>
-    </div>
-
-    <div class="navigation">
-      <ul>
-        <li>
-          <a href="#">
-            <span class="fa fa-square-plus"></span>
-            <span>Sua Biblioteca</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="fa fa-heart"></span>
             <span>Biblioteca</span>
           </a>
         </li>
       </ul>
     </div>
 
-    <div class="politicas">
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fa-plus"></span>
+            <span>Create Playlist</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fa-heart"></span>
+            <span>Liked Songs</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="policies">
       <ul>
         <li>
           <a href="#">Cookies</a>
@@ -68,18 +68,211 @@
         </li>
       </ul>
     </div>
+
   </div>
 
-  <div class="main-container">
+  <div class="topbar-container">
     <div class="topbar">
-      <div class="prev-next-buttons">
-        <button type="button" class="fa  fa-chevron-left"></button>
-        <button type="button" class="fa  fa-chevron-rigth"></button>
+      <div class="next-buttons">
+        <button type="button" class="fa fas fa-chevron-left"></button>
+        <button type="button" class="fa fas fa-chevron-right"></button>
       </div>
 
-      <div class="navbar"></div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#">Premium</a>
+          </li>
+          <li>
+            <a href="#">Suporte</a>
+          </li>
+          <li>
+            <a href="#">Download</a>
+          </li>
+          <li class="divicao">|</li>
+          <li>
+            <a href="#">Inscreva-se</a>
+          </li>
+          <button type="button">Login</button>
+        </ul>
+      </div>
     </div>
   </div>
+
+  <div class="playlist">
+    <h2>Spotify Playlists</h2>
+
+    <div class="list">
+      <div class="item">
+        <img src="src/img/playlist/chris-brown-11-11.jpg" alt="Chris Brown">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Today's Top Hits</h4>
+        <p>Chris Brown, Drake,
+          6LACK, Ne-Yo...</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/guns-n-roses.jpg" alt="Guns N' Roses">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Rock Clássico</h4>
+        <p>AD/DC, Guns N' Roses, System Of A Down, Pink Floyd...</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/teto.jpg" alt="Teto">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Trapperz Brasil</h4>
+        <p> O melhor do trap dá o play e aumenta!</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/all-out-frank-sinatra.jpg" alt="Frank Sinatra">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>All out 50s</h4>
+        <p>Frank Sinatra, Elvis Presley, Chuck Berry...</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/this-is-pablo.jpg" alt="Pablo">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>This Is Pablo</h4>
+        <p>This is Pablo. Todos os maiores hits em uma só playlist.</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/chris-brown-playlist.jpg" alt="Chris Brown">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Chris Brown All Songs</h4>
+        <p>As melhores músicas de Chris Brown.</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/michael-jackson-all-out-80s.jpg" alt="Michael Jackson">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>All out 80s</h4>
+        <p>Michael Jackson, Bon Jovi, Queen, Metallica, Guns N' Roses...</p>
+      </div>
+
+      <div class="item">
+        <img src="src/img/playlist/this-is-hans-zimmer.jpg" alt="Hans Zimmer">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Today s top hits</h4>
+        <p>This is Hans Zimmer. Todos os maiores hits em uma só playlist.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="playlist">
+    <h2>Artistas</h2>
+
+    <div class="list">
+      <div class="item artistas">
+        <img src="src/img/artistas/chris-brown.jpg" alt="Chris Brown">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Chris Brown</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/6lack.jpg" alt="6LACK">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>6LACK</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/50cent.jpg" alt="50 Cent">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>50 Cent</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/matue.jpg" alt="Matue">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Matue</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/avenged-sevenfold.jpg" alt="Avenged Sevenfold">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Avenged Sevenfold</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/drake.jpeg" alt="Drake">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Drake</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/slash.jpg" alt="Slash">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Slash</h4>
+        <p>Artista</p>
+      </div>
+
+      <div class="item artistas">
+        <img src="src/img/artistas/hans-zimmer.jpg" alt="Hans Zimmer">
+
+        <div class="play">
+          <span class="fa fa-play"></span>
+        </div>
+        <h4>Hans Zimmer</h4>
+        <p>Artista</p>
+      </div>
+    </div>
+  </div>
+
 
   <script src="src/js/script.js"></script>
   <script src="https://kit.fontawesome.com/05cf54c972.js" crossorigin="anonymous"></script>
